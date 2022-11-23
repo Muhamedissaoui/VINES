@@ -1,0 +1,37 @@
+.upload-container{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 500px;
+}
+.upload-container h2{
+    color : #1976d2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.upload-container .txtfield{
+    margin-bottom: 20px;
+}
+.upload-container .btn{
+    margin-top: auto;
+    border-radius: 12px;
+}
+.upload-container p{
+    text-align: center;
+}
+.drpzone{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

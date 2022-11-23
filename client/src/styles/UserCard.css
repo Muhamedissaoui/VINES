@@ -1,0 +1,56 @@
+.UserCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    margin-left: 1250px;
+    margin-top: 60px;
+}
+.UserCard-border{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserCard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserCard-first-row{
+    display: flex;
+    flex-direction: row;
+}
+.UserCard-first-row h2{
+    padding-left: 10px;
+    font-weight: 400;
+}
+.UserCard-first-row img{
+    margin-top: 17px;
+}
+.UserCard-second-row{
+    display: flex;
+    flex-direction: row;
+}
+.UserCard-second-row h1{
+    margin-right: 30px;
+    margin-left: 20px;
+    color: #1976d2;
+    font-size: 25px;
+}
+.UserCard-second-row span{
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 5px;
+    color: gray;
+}
+.UserCard-Button{
+    display: flex;
+    margin-top: 5px;
+}

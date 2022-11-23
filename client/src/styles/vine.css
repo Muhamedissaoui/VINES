@@ -1,0 +1,57 @@
+.vine-container{
+    display: flex;
+    flex-direction: column;
+}
+.vine-border{
+    display: flex;
+    flex-direction: column;
+}
+.vine-header{
+    display: flex;
+    align-items: center;
+}
+.vine-user{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.vine-img{
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 40px;
+}
+.vine-video{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.vine-details{
+    margin-left: 250px;
+}
+.vine-title span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.vine-btn{
+    display: flex;
+    flex-direction: row;
+}
+.vine-username{
+    color : #1976d2;
+}
+.vine-username:hover{
+    color : #134577;
+    text-decoration: underline;
+}
+.vine-username a{
+    color : inherit;
+    text-decoration: none;
+}
+.vine-header-btn{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: 280px;
+}
+.vine-comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

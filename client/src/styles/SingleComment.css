@@ -1,0 +1,22 @@
+.Comment-Container{
+    display: flex;
+}
+.Comment-border{
+    display: flex;
+    flex-direction: column;
+}
+.Commenter{
+    display: flex;
+}
+.Comment-img{
+    margin-top: 15px;
+}
+.Comment-username{
+    color: #1976d2;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.Comment-content{
+    margin-left: 20px;
+}

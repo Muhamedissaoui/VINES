@@ -1,0 +1,12 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.profile-content{
+    margin-top: 200px;
+}   
+.profile-videos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}

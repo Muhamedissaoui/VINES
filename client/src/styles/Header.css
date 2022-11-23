@@ -1,0 +1,79 @@
+.navbar{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container{
+    background-color: white;
+    z-index: 9999999;
+    position: fixed;
+    width: 1540px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.navbar-logo{
+    font-family: Brush Script MT, Brush Script Std;
+    font-size: 32px;
+    color: #1976d2;
+}
+.nav-search-form{
+    display: flex;
+    align-items: center;
+    border: solid 1px grey;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    outline: 2px;
+    background-color: white;
+}
+.nav-search-form input{
+    outline: none;
+    border: none;
+    width: 220px;
+    margin-left: 10px;
+}
+.navbar-user{
+    display: flex;
+    align-items: center;
+}
+.navbar-user img{
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 40px;
+}
+.navbar-action a{
+    text-decoration: none;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.navbar-action span{
+    margin-left: 10px;
+    color: #1976d2;
+    cursor: pointer;
+}
+.navbar-action span:hover{
+    color: #044d96;
+}
+.navbar-logo a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-menu{
+    margin-left: 35px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.navbar-menu:hover{
+    color: gray;
+}
+.navbar-popup-span{
+    text-align: center;
+}
+.navbar-popup-span .clickspan{
+    cursor: pointer;
+}

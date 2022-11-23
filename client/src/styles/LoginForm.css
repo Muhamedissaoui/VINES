@@ -1,0 +1,16 @@
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginForm h2{
+    text-align: center;
+}
+.LoginForm .txtfield{
+   width: 400px;
+   margin: 10px;
+}
+.LoginForm .btn{
+    margin: 10px;
+    width: 80px;
+}

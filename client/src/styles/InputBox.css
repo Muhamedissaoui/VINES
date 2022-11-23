@@ -1,0 +1,67 @@
+.inputbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 400px;
+    margin-top : 60px;
+}
+.inputbox-border{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputbox-img{
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inputbox-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    margin-left: auto;
+}
+.inputbox-user{
+    display: flex;
+    align-items: center;
+    margin-right: 68px;
+}
+.inputbox-button a{
+    text-decoration: none;
+}
+.inputbox-button a, a:visited, a:hover, a:active{
+    color: inherit;
+}
+.inputbox-user .p-user{
+    padding-left : 10px;
+    font-weight: 450;
+}
+.inputbox-btn{
+    padding-left: 12px;
+}
+.inputbox-header{
+    display: flex;
+    align-items: row;
+}
+
+.inputbox-user input{
+    width: 500px;
+    margin-left: 10px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: solid grey 1px;
+}
+.inputbox-user input:hover{
+    border-color: #1976d2;
+}
